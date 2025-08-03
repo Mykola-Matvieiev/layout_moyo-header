@@ -63,13 +63,13 @@ a {
   position: relative;
 }
 
-.menu__item:not(:first-child) {
+/* .menu__item:not(:first-child) {
   margin-left: 20px;
-}
-
-/* .menu__item:not(:last-child) {
-  margin-right: 20px;
 } */
+
+.menu__item:not(:last-child) {
+  margin-right: 20px;
+}
 
 .menu__item a {
   line-height: 60px;

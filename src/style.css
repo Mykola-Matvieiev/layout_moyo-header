@@ -14,7 +14,6 @@ body {
 }
 
 .header {
-  /* width: 100%; */
   display: flex;
   padding-inline: 50px;
   margin: 0;
@@ -63,10 +62,6 @@ a {
   position: relative;
 }
 
-/* .menu__item:not(:first-child) {
-  margin-left: 20px;
-} */
-
 .menu__item:not(:last-child) {
   margin-right: 20px;
 }
@@ -81,8 +76,6 @@ a {
   color: black;
   margin: 0;
   padding: 0;
-
-  /* border: solid 1px red; */
 }
 
 :root {
@@ -100,8 +93,6 @@ a {
 .menu__item.is-active::after {
   content: '';
   background: var(--blue);
-
-  /* display: block; */
   height: 4px;
   border-radius: 2px;
   position: absolute;

@@ -33,7 +33,7 @@ body {
   height: 40px;
 }
 
-.menu__list {
+.menu {
   display: flex;
   margin: 0;
   padding: 0;
@@ -62,7 +62,7 @@ body {
   color: var(--blue);
 }
 
-.menu__item:hover[data-qa='hover'] {
+.menu__item:hover {
   color: var(--blue);
 }
 
